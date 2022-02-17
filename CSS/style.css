@@ -1,38 +1,72 @@
+/* css property of the image 8ball*/
 #ballimg {
 
-   width: 300px;
-   height: 300px;
-   margin-bottom: 30px;
-   margin-top: 30px;
-   margin-right: 300px;
-   margin-left: 500px;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 300px;
+    margin-left: 500px;
 
 }
-
+/* css property of the ask me anything button*/
 #questionbtn {
-    
-  font-size: 30px;
-  
-  color: #f8f8f8;
-  background-color:darkcyan;
-   
-  border: none;
-  padding: .5em 1em;
-  width: 80%;
-  max-width: 15em;
-  margin-top: 1em;
-  margin-right:300px;
-  margin-left: 450px;
+
+    font-size: 30px;
+    color: #f8f8f8;
+    background-color: darkcyan;
+    border: none;
+    padding: .5em 1em;
+    width: 80%;
+    max-width: 15em;
+    margin-top: 1em;
+    margin-right: 300px;
+    margin-left: 470px;
 }
+/* css property of the Magic 8 ball text*/
 h1 {
-     font-weight: 200; 
-     font-size: 2.5em;
-     color: darkcyan;
-     margin-right: 300px;
-     margin-left: 500px;
-     font-weight: bold;
-    }
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 2.5rem;
+    color: darkcyan;
+    margin-right: 300px;
+    margin-left: 570px;
+    font-weight: bold;
+}
+/* css property of answer input box */
 #answer {
     margin-right: 600px;
     margin-left: 400px;
+}
+
+/* css property of ball shaking */
+.shaking {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
 }
