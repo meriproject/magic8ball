@@ -3,7 +3,7 @@ const imgball = document.getElementById('ballimg');
 const btnask = document.getElementById('questionbtn');
 let answer = document.getElementById('answer');
 
-btnask.addEventListener('click', () => {
+btnask.addEventListener('click', function() {
 
   var magic8Answers= new Array();
   magic8Answers[0]='img/magic/magic8ball_1.png'; 
@@ -35,7 +35,7 @@ btnask.addEventListener('click', () => {
   if (question.length >1) {
     var index = Math.floor(Math.random() * Math.floor(magic8Answers.length));
        document.querySelector('img').src=magic8Answers[index];
-    //console.log(magic8Answers[index])
+    
   } 
   else {
 
