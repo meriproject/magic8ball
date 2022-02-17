@@ -35,7 +35,7 @@ btnask.addEventListener('click', () => {
   if (question.length >1) {
     var index = Math.floor(Math.random() * Math.floor(magic8Answers.length));
        document.querySelector('img').src=magic8Answers[index];
-    console.log(magic8Answers[index])
+    //console.log(magic8Answers[index])
   } 
   else {
 
