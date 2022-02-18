@@ -1,4 +1,4 @@
-/* css property of the image 8ball*/
+/*  image 8ball*/
 #ballimg {
 
     width: 400px;
@@ -9,7 +9,7 @@
     margin-left: 500px;
 
 }
-/* css property of the ask me anything button*/
+/*  ask me anything button*/
 #questionbtn {
 
     font-size: 30px;
@@ -23,7 +23,7 @@
     margin-right: 300px;
     margin-left: 470px;
 }
-/* css property of the Magic 8 ball text*/
+/*  Magic 8 ball text*/
 h1 {
     font-family:'Times New Roman', Times, serif;
     font-weight: 200;
@@ -33,13 +33,13 @@ h1 {
     margin-left: 570px;
     font-weight: bold;
 }
-/* css property of answer input box */
+/*  answer input box */
 #answer {
     margin-right: 600px;
     margin-left: 400px;
 }
 
-/* property of ball shaking */
+/* ball shaking */
 .shaking {
     animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
     transform: translate3d(0, 0, 0);
@@ -69,4 +69,10 @@ h1 {
     60% {
         transform: translate3d(4px, 0, 0);
     }
+}
+footer{
+    text-align: center;
+    padding: 5em 1em;
+    margin-right: 300px;
+    margin-left: 200px;
 }
